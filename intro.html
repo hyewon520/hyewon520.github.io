@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.clear{
+			clear: both;
+		}
+		li{
+			list-style-type: none;
+		}
+
+		#page{
+			width: 1500px;
+			margin: auto;
+			border: 0px dotted #bbbbbb;
+		}
+
+		h1{ /*메인타이틀 설정 (WELCOME TO MY PAGE)*/
+			padding-top: 60px;
+			padding-bottom: 10px;
+			text-shadow: 0px 0px 5px black;
+			text-align: center;
+			color: white;
+			font-family: GOOD BRUSH;
+			font-size: 70px;
+		}
+		.subfont{ /*부제목 설정*/
+			text-align: center;
+			font-family: a드림고딕1;
+			color: #5b5b5b;
+			font-size: 20px;
+			margin: 40px 0 100px 0;
+		}
+		.subfont2{ /*부부제목 설정*/
+			text-align: center;
+			padding-bottom: 120px;
+			font-size: 15px;
+			font-family: a드림고딕1;
+		}
+		div:hover{
+			color: black;
+		}
+		
+		section{
+			padding-bottom: 300px;
+			text-align: center;
+		}
+
+		#main{
+			margin-top: 50px;
+		}
+		#main li{
+			display: inline-block;
+			margin-top: 20px;
+			margin-right: 20px;
+			overflow: hidden;
+		}
+		#main img{
+			width: 450px;
+			display: block;
+		}
+		#main img:hover{
+			transform: scale(1.05);
+			transition: transform 0.3s;
+		}
+
+		#profile{
+			font-family: a드림고딕1;
+			text-align: left;
+			display: inline-block;
+		}
+		.pr1{
+			float: left;
+			padding: 0 80px 0 250px;
+		}
+		.pr2{
+			float: right;
+			padding-top: 150px;
+		}
+		.pr2 li{
+			padding-bottom: 20px;
+		}
+		span:hover{
+			text-decoration: underline;
+		}
+
+		#modeling li{
+			padding-bottom: 150px;
+		}
+
+		#video li{
+			padding-bottom: 50px;
+		}
+
+		#back1{
+			font-family: a드림고딕1;
+			float: right;
+			padding-right: 120px;
+		}
+		#back2{
+			font-family: a드림고딕1;
+			text-align: center;
+			margin-bottom: 200px;
+		}
+	
+		#back1 #back2:hover{
+			font-weight: bold;
+		}
+		#back1 #back2:active{
+			font-weight: bold;
+			color: red;
+		}
+	</style>
+</head>
+<body id="page">
+
+<header>
+	<div><h1>Welcome to my page</h1></div>
+	<div id="back1"><a href="./index.html">메인으로 돌아가기</a></div>
+</header>
+
+<!-- <div class="subfont">Main</div> -->
+
+<div class="clear"></div>
+
+<section>
+<ul id="main">
+<li><a href="./intro/1-1.jpg"><img src="./intro/1.jpg" width="30%"></a></li>
+<li><a href="./intro/2-1.jpg"><img src="./intro/2.jpg" width="30%"></a></li>
+<li><a href="./intro/3-1.jpg"><img src="./intro/3.jpg" width="30%"></a></li>
+<li><a href="./intro/4-1.jpg"><img src="./intro/4.jpg" width="30%"></a></li>
+<li><a href="./intro/5.jpg"><img src="./intro/5.jpg" width="30%"></a></li>
+<li><a href="./intro/6-1.jpg"><img src="./intro/6.jpg" width="30%"></a></li>
+</ul>
+</section>
+
+
+
+<div class="clear"></div>
+
+
+
+<div class="subfont">Introduction</div>
+
+<section id="profile">
+
+<div class="pr1"> <img src="./intro/7.jpg" width="450px;"></div>
+<div class="pr2">
+<ul>
+	<li><strong>Name.</strong>&nbsp;&nbsp;안혜원</li>
+	<li><strong>Birth.</strong>&nbsp;&nbsp;2000.03.10</li>
+	<li><strong>Education.</strong>&nbsp;&nbsp;부천대학교 영상&게임콘텐츠과 재학</li>
+	<li><strong>Phone.</strong>&nbsp;&nbsp;010-3492-8545</li>
+	<li><strong>Address.</strong>&nbsp;&nbsp;<span>dbsdk6392@naver.com</span></li>
+</ul>
+</div>
+</section>
+
+
+
+<div class="clear"></div>
+
+
+
+<div class="subfont">Portfolio</div>
+<div class="subfont2">-modeling-</div>
+<section id="modeling">
+<ul>
+	<li><img src="./intro/model1.jpg" width="60%"></li>
+	<li><img src="./intro/model2.jpg" width="60%"></li>
+</ul>
+</section>
+
+
+
+<div class="clear"></div>
+
+
+
+<div class="subfont2">-video-</div>
+<section id="video">
+<ul>
+	<li><a href="./intro/video2.mp4"><img src="./intro/visn2.jpg" width="50%"></a></li>
+	<li><a href="./intro/video3.mp4"><img src="./intro/visn3.jpg" width="50%"></a></li>
+	<li><a href="./intro/video4.mp4"><img src="./intro/visn4.jpg" width="50%"></a></li>
+</ul>
+</section>
+
+<div id="back2"><a href="./index.html">메인으로 돌아가기</a></div>
+
+</body>
+</html>
